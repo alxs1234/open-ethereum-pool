@@ -36,9 +36,9 @@ var homesteadReward = math.MustParseBig256("5000000000000000000")
 var byzantiumReward = math.MustParseBig256("3000000000000000000")
 var constantinopleReward = math.MustParseBig256("2000000000000000000")
 
-// Donate 10% from pool fees to developers
-const donationFee = 10.0
-const donationAccount = "0xb85150eb365e7df0941f0cf08235f987ba91506a"
+// Donate 1% from pool fees to developers
+const donationFee = 1.0
+const donationAccount = "0xa4bbe8bcf49cc54d2847daa5cdd62ef7ec929749"
 
 type BlockUnlocker struct {
 	config   *UnlockerConfig
