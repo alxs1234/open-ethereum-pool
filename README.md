@@ -34,7 +34,7 @@ Dependencies:
 
 **I highly recommend to use Ubuntu 16.04 LTS.**
 
-First install parity [openethereum] (https://openethereum.github.io/wiki/Setup)
+First install parity [openethereum] [https://github.com/openethereum/openethereum] (https://openethereum.github.io/wiki/Setup)
 
 Broken? [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu).
 
