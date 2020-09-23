@@ -29,17 +29,19 @@ Dependencies:
   * go >= 1.9
   * parity (will not work with geth)
   * redis-server >= 2.8.0
-  * nodejs >= 4 LTS
+  * nodejs >= 8 LTS
   * nginx
 
 **I highly recommend to use Ubuntu 16.04 LTS.**
 
-First install  [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu).
+First install parity [openethereum] (https://openethereum.github.io/wiki/Setup)
+
+Broken? [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu).
 
 Clone & compile:
 
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/sammy007/open-ethereum-pool.git
+    git clone https://github.com/alxs1234/open-ethereum-pool.git
     cd open-ethereum-pool
     make
 
@@ -61,7 +63,7 @@ The frontend is a single-page Ember.js application that polls the pool API to re
 
 Change <code>ApiUrl: '//example.net/'</code> in <code>www/config/environment.js</code> to match your domain name. Also don't forget to adjust other options.
 
-    npm install -g ember-cli@2.9.1
+    npm install -g ember-cli@2.18.2
     npm install -g bower
     npm install
     bower install
